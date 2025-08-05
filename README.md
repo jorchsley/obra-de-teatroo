@@ -1,5 +1,5 @@
-# 🎭 Sitio Web de Obra de Teatro
-
+# 🎭 Sitio Web de Obra de Teatro en borrador 
+# NOUSAR #
 Un sitio web moderno y responsivo para promocionar una obra de teatro, con navegación flotante y múltiples secciones informativas.
 
 ## 📋 Características
@@ -143,5 +143,6 @@ Para soporte técnico o preguntas sobre el proyecto:
 Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
 
 ---
+
 
 **Desarrollado con ❤️ para el mundo del teatro** 
