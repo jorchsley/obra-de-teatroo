@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Declaración del tipo de documento HTML5 -->
+    <meta charset="UTF-8">
+    <!-- Meta tag para hacer la página responsiva en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la página que aparece en la pestaña del navegador -->
+    <title>Documentación - Obra de Teatro</title>
+    <!-- Enlace al archivo CSS principal -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts: Importa la fuente Poppins con pesos 400 (normal) y 700 (bold) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome: Biblioteca de íconos para usar en toda la página -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Enlace al archivo JavaScript con defer para cargar después del HTML -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header flotante que se mantiene fijo en la parte superior -->
+    <header class="floating-header">
+        <!-- Título principal de la página -->
+        <h1>Documentación y Recursos</h1>
+        <!-- Navegación principal del sitio -->
+        <nav class="floating-nav">
+            <!-- Lista de enlaces de navegación -->
+            <ul>
+                <!-- Enlace a la página de inicio con ícono de casa -->
+                <li><a href="index.html"><i class="fas fa-home"></i>Inicio</a></li>
+                <!-- Enlace a la página de actores con ícono de usuarios -->
+                <li><a href="actores.html"><i class="fas fa-users"></i>Actores</a></li>
+                <!-- Enlace a la página de escenografía con ícono de rodillo de pintura -->
+                <li><a href="escenografia.html"><i class="fas fa-paint-roller"></i>Escenografía</a></li>
+                <!-- Enlace a la página actual de documentación con ícono de archivo -->
+                <li><a href="documentacion.html"><i class="fas fa-file-alt"></i>Documentación</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+        <!-- Sección de encabezado con imagen de fondo -->
+        <section class="bg-image">
+            <!-- Título de la sección -->
+            <h2>Documentación Completa</h2>
+            <!-- Descripción de la sección -->
+            <p>Accede a todos los recursos y materiales de la producción</p>
+        </section>
+
+        <!-- Sección de Guión y Texto -->
+        <section>
+            <!-- Título de la sección -->
+            <h2>Guión y Texto</h2>
+            <!-- Contenedor grid para organizar los elementos de documentación -->
+            <div class="documentacion-content">
+                <!-- Elemento de documentación: Guión Completo -->
+                <div class="doc-item">
+                    <!-- Título con ícono de libro -->
+                    <h3><i class="fas fa-book"></i> Guión Completo</h3>
+                    <!-- Descripción del contenido -->
+                    <p>El texto íntegro de la obra con todas las acotaciones escénicas, diálogos y notas de dirección.</p>
+                    <!-- Enlace de descarga directa al PDF del guión -->
+                    <a href="https://drive.google.com/file/d/1khRMmykNJXnNIAsavbhPGj50GW5IywFU/view?usp=sharing" download class="btn-download">
+                        <i class="fas fa-download"></i> Descargar PDF
+                    </a>
+            </div>
+        </section>
+
+        <!-- Sección de Materiales Promocionales -->
+        <section>
+            <!-- Título de la sección -->
+            <h2>Materiales Promocionales</h2>
+            <!-- Contenedor grid para organizar los materiales promocionales -->
+            <div class="documentacion-content">
+                <!-- Elemento de documentación: Imágenes y Fotos -->
+                <div class="doc-item">
+                    <!-- Título con ícono de imagen -->
+                    <h3><i class="fas fa-image"></i> Imágenes y Fotos</h3>
+                    <!-- Descripción del contenido -->
+                    <p>Galería de imágenes de alta resolución para uso promocional y en medios de comunicación.</p>
+                    <!-- Grid de materiales promocionales -->
+                    <div class="promo-materials">
+                        <!-- Elemento promocional: Fotos de Actores -->
+                        <div class="promo-item">
+                            <i class="fas fa-user-friends"></i>
+                            <span>Fotos de Actores</span>
+                            <a href="https://drive.google.com/drive/folders/1Fx5hw4MIN6WjTztJSEFY-ZhejhsAYTj_?usp=sharing" target="_blank" class="btn-drive">
+                                <i class="fas fa-external-link-alt"></i> Ver en Drive
+                            </a>
+                        </div>
+                        <!-- Elemento promocional: Escenografía -->
+                        <div class="promo-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Escenografía</span>
+                            <a href="https://drive.google.com/drive/folders/1Fx5hw4MIN6WjTztJSEFY-ZhejhsAYTj_?usp=sharing" target="_blank" class="btn-drive">
+                                <i class="fas fa-external-link-alt"></i> Ver en Drive
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Elemento de documentación: Videos y Trailers -->
+                <div class="doc-item">
+                    <!-- Título con ícono de video -->
+                    <h3><i class="fas fa-video"></i> Videos y Trailers</h3>
+                    <!-- Descripción del contenido -->
+                    <p>Material audiovisual para promoción, incluyendo trailers, entrevistas y clips de la obra.</p>
+                    <!-- Grid de materiales de video -->
+                    <div class="promo-materials">
+                        <!-- Elemento promocional: Trailer Oficial -->
+                        <div class="promo-item">
+                            <i class="fas fa-play"></i>
+                            <span>Trailer Oficial</span>
+                            <a href="https://drive.google.com/drive/folders/1Fx5hw4MIN6WjTztJSEFY-ZhejhsAYTj_?usp=sharing" target="_blank" class="btn-drive">
+                                <i class="fas fa-external-link-alt"></i> Ver en Drive
+                            </a>
+                        </div>
+                        <!-- Elemento promocional: Clips de Escena -->
+                        <div class="promo-item">
+                            <i class="fas fa-film"></i>
+                            <span>Clips de Escena</span>
+                            <a href="https://drive.google.com/drive/folders/1Fx5hw4MIN6WjTztJSEFY-ZhejhsAYTj_?usp=sharing" target="_blank" class="btn-drive">
+                                <i class="fas fa-external-link-alt"></i> Ver en Drive
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Prensa y Comunicación -->
+        <section>
+            <!-- Título de la sección -->
+            <h2>Prensa y Comunicación</h2>
+            <!-- Contenedor grid para organizar los elementos de prensa -->
+            <div class="documentacion-content">
+                <!-- Elemento de documentación: Materiales de Marketing -->
+                <div class="doc-item">
+                    <!-- Título con ícono de megáfono -->
+                    <h3><i class="fas fa-bullhorn"></i> Materiales de Marketing</h3>
+                    <!-- Descripción del contenido -->
+                    <p>Recursos promocionales listos para usar en redes sociales, carteles y publicidad.</p>
+                    <!-- Grid de materiales de marketing -->
+                    <div class="promo-materials">
+                        <!-- Elemento promocional: Carteles -->
+                        <div class="promo-item">
+                            <a href="https://drive.google.com/file/d/1Uz8frU6kcSSBhdvXcWXnVPLm9PEo0idU/view?usp=drive_link">
+                                <i class="fas fa-download"></i> triptico
+                            </a>
+                        </div>
+                    </div>
+                    </button>
+                </div>
+                <div class="actor-card">
+                    <div class="actor-foto">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Difución : </h3>
+                    <p> * Cebada Romero Bianca Carolina 
+                        * Cruz Rojas Ana Karen  
+                        * Leyva López Mercedes 
+                        * Mendez Cordova Stefania Aracely
+                        *Rocha Perez Hanna Nahomy
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Información de Contacto -->
+        <section>
+            <!-- Título de la sección -->
+            <h2>Información de Contacto</h2>
+                <!-- Tarjeta de ventas de boletos -->
+                <div class="actor-card">
+                    <!-- Ícono de boletos -->
+                    <div class="actor-foto">
+                        <i class="fas fa-ticket-alt"></i>
+                    </div>
+                    <!-- Título de la tarjeta -->
+                    <h3>Ventas de Boletos</h3>
+                    <form id="ticketForm">
+                        <button type="submit">Registrarse</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html> 
