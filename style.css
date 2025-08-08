@@ -448,17 +448,12 @@ button i {
     padding: 2rem !important;
     /* Bordes redondeados */
     border-radius: 12px !important;
-    /* Margen externo centrado */
+    /* Margen externo */
     margin: 2rem auto !important;
     /* Sombra sutil */
     box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
     /* Ancho máximo */
     max-width: 800px !important;
-    /* Centrado horizontal perfecto */
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
 }
 
 /* Título de la sección de descarga */
@@ -999,11 +994,7 @@ section:nth-child(3) .doc-item {
     /* Sección de descarga más compacta */
     #descargar-guion {
         padding: 1.5rem;
-        margin: 1rem auto;
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        justify-content: center !important;
+        margin: 1rem 0;
     }
     
     /* Título de descarga más pequeño */
